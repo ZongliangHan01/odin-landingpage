@@ -81,6 +81,9 @@ button {
     color: #F9FAF8;
     border-radius: 8px;
     text-align: center;
+    border-color: #e5e7eb;
+    border-style: solid;
+    margin-top: 20px;
 }
 
 .section-two {
