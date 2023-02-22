@@ -1,0 +1,157 @@
+a {
+    text-decoration: none;
+    color: #cdd1d8;
+    font-size: 18px;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.section-one {
+    flex: 1;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    gap: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.header .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .button {
+    align-self: flex-start;
+    font-size: 18px;
+    padding: 5px 25px;
+}
+
+.content .title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+img.image-one{
+    height: auto;
+
+    width: 400px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+}
+
+.section-two .title {
+    align-self: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.section-two .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+img.image-two {
+    width: auto;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.section-four {
+    background-color: #3882f6;
+    margin: 50px 50px 100px 100px ;
+    border-radius: 8px;
+    display: flex;
+    color: #e5e7eb;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.section-four button {
+    align-self: center;
+    border-color: #e5e7eb;
+    border-style:solid;
+}
+
+.modal .title {
+    font-size: large;
+    font-weight: bolder;
+}
